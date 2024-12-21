@@ -20,7 +20,7 @@ interface SignInResult {
 }
 
 GoogleSignin.configure({
-  webClientId: '6567774373-7u57q92cligeko2iehsq1bsvtqd7ng87.apps.googleusercontent.com', // Client ID for Web application
+  webClientId: 'configure-web-client-id', // Client ID for Web application
 });
 
 const signInWithGoogle = async (): Promise<SignInResult> => {
